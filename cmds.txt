@@ -1,0 +1,4 @@
+JWT Key Generator:
+    ssh-keygen -t rsa -b 4096 -m PEM -f jwtRSA256.key
+    # Don't add passphrase
+    openssl rsa -in jwtRSA256.key -pubout -outform PEM -out jwtRSA256.key.pub

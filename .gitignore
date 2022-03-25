@@ -1,0 +1,23 @@
+# Dependency directory
+node_modules/
+
+# API keys and secrets
+.env
+
+# Editors
+.vscode
+.idea
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+build/**/*
+
+# Storages and local data
+**/*.db
+
+#
+**/*.key
+**/*.key.pub
